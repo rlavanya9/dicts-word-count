@@ -1,0 +1,4 @@
+from collections import counter
+import re
+words = re.findall(r'\w+', open('test.txt').read().lower())
+Counter(words)
